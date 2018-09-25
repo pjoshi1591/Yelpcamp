@@ -27,7 +27,7 @@ app.use(methodOverride("_method"));
 mongoose.set("useCreateIndex", true);
 app.use(flash());
 
-// app.locals.moment = require('moment');
+app.locals.moment = require('moment');
 
 //Passport Configuration
 app.use(require("express-session")({

@@ -3,7 +3,6 @@ var express                = require("express"),
     bodyParser             = require("body-parser"),
     mongoose               = require("mongoose"),
     Campground             = require("./models/campground"),
-    compressor             = require("node-minify"),
     Comment                = require("./models/comment"),
     flash                  = require("connect-flash"),
     seedDB                 = require("./seeds"),
@@ -28,7 +27,7 @@ app.use(methodOverride("_method"));
 mongoose.set("useCreateIndex", true);
 app.use(flash());
 
-app.locals.moment = require('moment');
+// app.locals.moment = require('moment');
 
 //Passport Configuration
 app.use(require("express-session")({

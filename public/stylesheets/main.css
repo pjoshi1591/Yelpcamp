@@ -1,0 +1,17 @@
+/*body{*/
+/*    background: #F7F8F8; */
+/*background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8); */
+/*background: linear-gradient(to right, #ACBB78, #F7F8F8); */
+
+/*}*/
+.thumbnail img {
+    width: 100%;
+    
+}
+.thumbnail{
+    padding: 0;
+}
+
+.delete-form{
+    display: inline;
+}

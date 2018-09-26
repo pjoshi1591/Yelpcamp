@@ -14,13 +14,13 @@
     "mongoose": "^5.2.14",
     "node-minify": "^3.5.0",
     "passport": "^0.4.0",
-    "passport-local-mongoose": "^5.0.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node app.js"
   },
   "author": "tejprakash",
   "license": "ISC"
